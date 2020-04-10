@@ -11,6 +11,7 @@ export const StyledHome = styled.div`
     grid-row-gap: 0px;
     width: 90%;
     margin: 0 auto;
+    position relative;
     }
 
     .nav{
@@ -64,7 +65,7 @@ export const StyledHome = styled.div`
 
     .logo{
         position: absolute;
-        bottom: 52px;
+        bottom: -85px;
         display: flex;
         justify-content: center;
         align-items: center;
