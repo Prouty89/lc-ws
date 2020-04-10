@@ -1,0 +1,47 @@
+import React from 'react';
+import {StyledHome} from './HomeStyles';
+import HeroInterior from '../../Assets/hero.png';
+import logoWhite from '../../Assets/logoWhite.svg';
+
+const Home = () => {
+    return (
+        <StyledHome>
+           
+            <div className="home-container"> 
+                <div className="info">
+                    <nav className="nav">
+                        <ul>
+                            <li>
+                                Account
+                            </li>
+                        </ul>
+                    </nav>
+                    <div className="social">
+                    <a href="www.facebook.com" target="__blank">
+                        <img src="https://img.icons8.com/material-outlined/42/3d4839/facebook-new.png" alt="facebook"/>
+                    </a>
+                    <a href="www.facebook.com" target="__blank">
+                        <img className="insta" src="https://img.icons8.com/metro/37/3d4839/instagram-new.png" alt="instagram"/>
+                    </a>
+                    </div>
+                    <div className="hero-title">
+                    {/* <p className="number">
+                        (605) 695 8736
+                    </p> */}
+                    <img className="logo-1" src={logoWhite} alt="logo-white"/>
+                        <p className="interior-design">INTERIOR DESIGN</p>
+                    </div>
+                </div>
+                <div className="img-container">
+                    <img src={HeroInterior} alt="hero" />
+                </div>
+            <div className="logo">
+            <img src="https://img.icons8.com/material/56/b6b5b4/chevron-down--v1.png"/>
+            <img src="https://img.icons8.com/material/56/b6b5b4/chevron-up--v1.png"/>
+            </div>
+            </div> 
+        </StyledHome>
+    )
+}
+
+export default Home;
