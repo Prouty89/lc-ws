@@ -106,7 +106,7 @@ export const StyledAbout = styled.div`
 
         img{
             width: 200px;
-            filter: brightness(0.5);
+            filter: brightness(0.35);
             border-radius: 6px;
         }
     }

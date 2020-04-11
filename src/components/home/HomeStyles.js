@@ -71,9 +71,9 @@ export const StyledHome = styled.div`
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 400px;
+        width: 275px;
         z-index: 3;
-        left: -2px;
+        left: -4px;
         height: 120px;
         box-shadow: black 1px -2px 6px -2px;
         background: ${props => props.theme.colors.greyWhite};

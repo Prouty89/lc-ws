@@ -21,10 +21,10 @@ const Home = () => {
                     </nav>
                     <div className="social">
                     <a href="www.facebook.com" target="__blank">
-                        <img src="https://img.icons8.com/material-outlined/42/3d4839/facebook-new.png" alt="facebook"/>
+                        <img className="facebook" src="https://img.icons8.com/ios/40/3d4839/facebook-new.png" alt="facebook"/>
                     </a>
                     <a href="www.facebook.com" target="__blank">
-                        <img className="insta" src="https://img.icons8.com/metro/37/3d4839/instagram-new.png" alt="instagram"/>
+                        <img className="insta" src="https://img.icons8.com/ios/40/3d4839/instagram-new.png" alt="instagram"/>
                     </a>
                     </div>
                     <div className="hero-title">
