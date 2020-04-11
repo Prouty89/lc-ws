@@ -13,7 +13,7 @@ function App() {
     <ThemeProvider theme={{
       colors: {
         green: "#6b7c67",
-        greyWhite: "#f9f4ef",
+        greyWhite: "#f2eeeb",
         bgWhite: "#fffaf5",
     },
     font: {

@@ -9,7 +9,7 @@ export const StyledHome = styled.div`
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    width: 90%;
+    width: 92%;
     margin: 0 auto;
     position relative;
     }
@@ -26,6 +26,7 @@ export const StyledHome = styled.div`
             font-family: 'inter', sans-serif;
             color: ${props => props.theme.font.linkDark};
             font-size: 1.5rem;
+            margin-right: 15px;
             font-weight: bold;
         }
     }
@@ -50,6 +51,7 @@ export const StyledHome = styled.div`
         background: ${props => props.theme.colors.green};
         box-shadow: 0px 45px 0px #6b7c67;
         z-index: 1;
+        
 
         .hero-title{
             position: relative;
@@ -70,8 +72,10 @@ export const StyledHome = styled.div`
         justify-content: center;
         align-items: center;
         width: 400px;
-        z-index: 2;
-        height: 170px;
+        z-index: 3;
+        left: -2px;
+        height: 120px;
+        box-shadow: black 1px -2px 6px -2px;
         background: ${props => props.theme.colors.greyWhite};
         
         img{
@@ -94,6 +98,9 @@ export const StyledHome = styled.div`
     .img-container{
         display: flex;
         justify-content: flex-start;
+        z-index: 2;
+        justify-content: flex-start;
+        box-shadow: -1px -1px 3px black;
     }
     
 

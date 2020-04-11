@@ -14,6 +14,9 @@ const Home = () => {
                             <li>
                                 Account
                             </li>
+                            <li>
+                                Portfolio
+                            </li>
                         </ul>
                     </nav>
                     <div className="social">
@@ -36,7 +39,7 @@ const Home = () => {
                     <img src={HeroInterior} alt="hero" />
                 </div>
             <div className="logo">
-            <img src="https://img.icons8.com/material/56/b6b5b4/chevron-down--v1.png"/>
+            <img src="https://img.icons8.com/material/64/b6b5b4/chevron-down--v1.png"/>
             <img src="https://img.icons8.com/material/56/b6b5b4/chevron-up--v1.png"/>
             </div>
             </div> 
