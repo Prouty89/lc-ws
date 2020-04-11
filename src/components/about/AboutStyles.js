@@ -24,7 +24,7 @@ export const StyledAbout = styled.div`
         position: relative;
         justify-content: center;
         align-items: center;
-        box-shadow: black -3px 8px 27px -26px;
+        box-shadow: -2px 2px 6px -6px black;
         background: ${props => props.theme.colors.greyWhite};
         .hero-title{
             position: relative;
@@ -35,6 +35,7 @@ export const StyledAbout = styled.div`
         z-index: 2;
         display: flex;
         justify-content: space-around;
+        box-shadow: 2px 0px 6px -6px black;
         align-items: center;
         background: ${props => props.theme.colors.bgWhite};
     }

@@ -2,10 +2,12 @@ import styled, { keyframes } from "styled-components";
 
 const border = keyframes`
     0% {
-        outline: 2px solid black;
+        outline: 2px solid #fffaf5;
+        font-size: 1.4rem;
     }
     100%{
-        outline: 5px solid black;
+        outline: 4px solid #fffaf5;
+        font-size: 1.5rem;
     }
 `
 
@@ -100,8 +102,8 @@ export const StyledContact = styled.div`
         
         &:hover{
             animation-name: ${border};
-            animation-timing-function: smooth;
-            animation-duration: 100ms;
+            animation-timing-function: ease-out;
+            animation-duration: 150ms;
             animation-delay: 0s;
             animation-fill-mode: forwards;
         }
