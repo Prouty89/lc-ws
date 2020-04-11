@@ -67,15 +67,15 @@ export const StyledHome = styled.div`
 
     .logo{
         position: absolute;
-        bottom: -85px;
+        bottom: -50px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-evenly;
         font-family: 'inter', sans-serif;
         font-weight: bold;
         font-size: 1.1rem;
         align-items: center;
-        width: 275px;
+        width: 295px;
         z-index: 3;
         left: -4px;
         height: 120px;
@@ -105,6 +105,19 @@ export const StyledHome = styled.div`
         z-index: 2;
         justify-content: flex-start;
         box-shadow: -2px -1px 19px -10px black;
+    }
+
+    .number{
+        text-align: left;
+        width: 100%;
+        font-size: 1.4rem;
+        margin-left: 20px;
+        color: ${props => props.theme.font.linkDark};
+    }
+
+    .email{
+        color: ${props => props.theme.font.linkDark};
+        font-size: 1.2rem;
     }
     
 
