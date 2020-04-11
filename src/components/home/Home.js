@@ -28,9 +28,6 @@ const Home = () => {
                     </a>
                     </div>
                     <div className="hero-title">
-                    {/* <p className="number">
-                        (605) 695 8736
-                    </p> */}
                     <img className="logo-1" src={logoWhite} alt="logo-white"/>
                         <p className="interior-design">INTERIOR DESIGN</p>
                     </div>
@@ -39,8 +36,14 @@ const Home = () => {
                     <img src={HeroInterior} alt="hero" />
                 </div>
             <div className="logo">
-            <img src="https://img.icons8.com/material/64/b6b5b4/chevron-down--v1.png"/>
-            <img src="https://img.icons8.com/material/56/b6b5b4/chevron-up--v1.png"/>
+            <p className="number">
+                        (605) 695 8736
+            </p>
+            <p className="email">
+                        Lindsey@chicoineinteriors.com
+            </p>
+            {/* <img src="https://img.icons8.com/material/64/b6b5b4/chevron-down--v1.png"/>
+            <img src="https://img.icons8.com/material/56/b6b5b4/chevron-up--v1.png"/> */}
             </div>
             </div> 
         </StyledHome>

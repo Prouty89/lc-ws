@@ -1,4 +1,13 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
+const border = keyframes`
+    0% {
+        outline: 2px solid black;
+    }
+    100%{
+        outline: 5px solid black;
+    }
+`
 
 
 export const StyledContact = styled.div`
@@ -40,6 +49,22 @@ export const StyledContact = styled.div`
         }
     }
 
+    .input_contact{
+        width: 475px;
+        height: 100px;
+        border-radius: 2px;
+        outline: none;
+        border: none;
+        margin-left: 15px;
+        margin-top: 15px;
+        font-size: 1.4rem;
+
+        ::placeholder{
+            padding-left: 10px;
+            font-family: 'Oswald', sans-serif;
+        }
+    }
+
 
 
     .bg{
@@ -58,13 +83,27 @@ export const StyledContact = styled.div`
     .inputs{
         display: flex;
         flex-direction: column;
-        height: 200px;
+        height: 350px;
         align-items: flex-start;
         justify-content: space-between;
     }
 
     .submit-btn{
-        width: 75px;
+        width: 95px;
+        background: ${props => props.theme.colors.bgWhite};
+        border: none;
+        height: 40px;
+        font-weight: bold;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.4rem;
+        margin: 0 auto;
         
+        &:hover{
+            animation-name: ${border};
+            animation-timing-function: smooth;
+            animation-duration: 100ms;
+            animation-delay: 0s;
+            animation-fill-mode: forwards;
+        }
     }
 `

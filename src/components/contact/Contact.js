@@ -36,8 +36,8 @@ const Contact = () => {
                         
                         </label>
                     
-                    <input
-                    className="input"
+                    <textarea
+                    className="input_contact"
                     name="message"
                     placeholder="Note"
                     id="message"

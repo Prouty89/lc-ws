@@ -69,7 +69,11 @@ export const StyledHome = styled.div`
         position: absolute;
         bottom: -85px;
         display: flex;
+        flex-direction: column;
         justify-content: center;
+        font-family: 'inter', sans-serif;
+        font-weight: bold;
+        font-size: 1.1rem;
         align-items: center;
         width: 275px;
         z-index: 3;
@@ -100,7 +104,7 @@ export const StyledHome = styled.div`
         justify-content: flex-start;
         z-index: 2;
         justify-content: flex-start;
-        box-shadow: -1px -1px 3px black;
+        box-shadow: -2px -1px 19px -10px black;
     }
     
 
