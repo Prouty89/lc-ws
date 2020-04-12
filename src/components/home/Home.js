@@ -42,9 +42,11 @@ const Home = () => {
                 </div>
             <div className="logo">
             <p className="number">
+            <img src="https://img.icons8.com/material/30/3d4839/phone-disconnected--v1.png"/>
                         (605) 695 8736
             </p>
             <p className="email">
+            <img src="https://img.icons8.com/material-sharp/24/3d4839/new-post.png"/>
                         Lindsey@chicoineinteriors.com
             </p>
             {/* <img src="https://img.icons8.com/material/64/b6b5b4/chevron-down--v1.png"/>

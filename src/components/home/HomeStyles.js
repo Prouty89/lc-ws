@@ -77,14 +77,14 @@ export const StyledHome = styled.div`
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        font-family: 'inter', sans-serif;
-        font-weight: bold;
+        font-family: 'Oswald', sans-serif;
+        
         font-size: 1.1rem;
         align-items: center;
-        width: 315px;
+        width: 400px;
         z-index: 3;
         left: -4px;
-        height: 120px;
+        height: 140px;
         box-shadow: black 1px -2px 6px -2px;
         background: ${props => props.theme.colors.greyWhite};
         
@@ -116,14 +116,33 @@ export const StyledHome = styled.div`
     .number{
         text-align: left;
         width: 100%;
-        font-size: 1.4rem;
-        margin-left: 35px;
+        display: flex;
+        align-items: center;
+        font-size: 1.5rem;
+        margin-left: 45px;
         color: ${props => props.theme.font.linkDark};
+
+        img{
+            padding: 5px;
+            padding-bottom: 0px;
+            padding-left: 0px;
+            padding-right: 10px;
+        }
     }
 
     .email{
         color: ${props => props.theme.font.linkDark};
-        font-size: 1.2rem;
+        font-size: 1.5rem;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-left: 35px;
+
+        img{
+            padding: 7px;
+            padding-bottom: 0px;
+            padding-right: 15px;
+        }
     }
     
 
