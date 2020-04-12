@@ -12,6 +12,7 @@ export const StyledHome = styled.div`
     width: 92%;
     margin: 0 auto;
     position relative;
+    min-height: 834px;
     }
 
     .nav{
