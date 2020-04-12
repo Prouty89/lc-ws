@@ -7,7 +7,12 @@ import About from '../about/About';
 
 
 
-const Contact = loadable(() => import('../contact/Contact'))
+const Contact = loadable(() => import('../contact/Contact'), {
+  fallback: 
+  <div>
+    Hello
+  </div>
+})
 
 const Footer = loadable(() => import('../footer/Footer'))
 
