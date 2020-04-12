@@ -1,4 +1,32 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
+const fadeIn = keyframes`
+    0% {
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+`
+
+const fill = keyframes`
+    0% {
+        background-image: linear-gradient(120deg, #f9fcff 0%, #f9fcff 100%);
+        background-repeat: no-repeat;
+        background-size: 10% 0.09em;
+        background-position: 0 100%;
+        transition: background-size 0.25s ease-in; 
+    }
+    100%{
+        background-image: linear-gradient(120deg, #f9fcff 0%, #f9fcff 100%);
+        background-repeat: no-repeat;
+        background-size: 100% 0.09em;
+        background-position: 0 100%;
+        transition: background-size 0.25s ease-in;
+    }
+`
 
 
 export const StyledAbout = styled.div`
@@ -51,12 +79,15 @@ export const StyledAbout = styled.div`
     .tab{
         position: absolute;
         top: 75px;
-        right: -170px;
+        right: -225px;
         outline: none;
-        font-size: 2rem;
+        color: ${props => props.theme.font.linkDark};
+        font-size: 3rem;
+        animation-name: ${fadeIn};
+        animation-duration: 1s;
         background: none;
+        font-style: italic;
         border: none;
-        border-bottom: 2px solid black;
         font-weight: bold;
         font-family: 'Cormorant Garamond', serif;  
     }
@@ -69,9 +100,18 @@ export const StyledAbout = styled.div`
         color: ${props => props.theme.font.white};
         background: none;
         border: none;
+        cursor: pointer;
         font-size: 2rem;
         font-weight: bold;
         font-family: 'Cormorant Garamond', serif;
+
+        &:hover{
+            animation-name: ${fill};
+            animation-timing-function: ease;
+            animation-duration: 400ms;
+            animation-delay: 0s;
+            animation-fill-mode: forwards;
+        }
     }
     .tab_inactive_offer{
         position: absolute;
@@ -84,6 +124,14 @@ export const StyledAbout = styled.div`
         font-size: 2rem;
         font-weight: bold;
         font-family: 'Cormorant Garamond', serif;
+
+        &:hover{
+            animation-name: ${fill};
+            animation-timing-function: ease;
+            animation-duration: 400ms;
+            animation-delay: 0s;
+            animation-fill-mode: forwards;
+        }
     }
 
     .img-container{

@@ -16,23 +16,23 @@ const About = () => {
   //1st
   const [visionVisible, setVisionVisible] = useState(true);
   const visiontransitions = useTransition(visionVisible, null, {
-    from: { display: "none", transform: "translateX(120px)" },
-    enter: { display: "flex", transform: "translateX(0px)" },
+    from: { display: "none", transform: "translateX(120px)" , opacity: 0 },
+    enter: { display: "flex", transform: "translateX(0px)" , opacity: 1 },
     leave: { display: "none", transform: "translateX(20px)" },
   });
   //2nd
   const [aboutVisible, setAboutVisible] = useState(false);
   const abouttransitions = useTransition(aboutVisible, null, {
-    from: { display: "none", transform: "translateX(120px)" },
-    enter: { display: "flex", transform: "translateX(0px)" },
+    from: { display: "none", transform: "translateX(120px)", opacity: 0 },
+    enter: { display: "flex", transform: "translateX(0px)", opacity: 1 },
     leave: { display: "none", transform: "translateX(20px)" },
   });
   //3rd
   const [offerVisible, setOfferVisible] = useState(false);
   const offertransitions = useTransition(offerVisible, null, {
-    from: { display: "none", transform: "translateX(120px)" },
-    enter: { display: "flex", transform: "translateX(0px)" },
-    leave: { display: "none", transform: "translateX(20px)" },
+    from: { display: "none", transform: "translateX(120px)" , opacity: 0 },
+    enter: { display: "flex", transform: "translateX(0px)" , opacity: 1 },
+    leave: { display: "none", transform: "translateX(20px)"},
   });
 
   function closeOne() {
