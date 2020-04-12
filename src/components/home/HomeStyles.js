@@ -18,6 +18,10 @@ export const StyledHome = styled.div`
         position: absolute;
         top: 0;
         left: 0;
+
+        a{
+            text-decoration: none;
+        }
         ul{
             display: flex;
         }
@@ -104,7 +108,7 @@ export const StyledHome = styled.div`
     .img-container{
         display: flex;
         justify-content: flex-start;
-        z-index: 2;
+        z-index: 4;
         justify-content: flex-start;
         box-shadow: -2px -1px 19px -10px black;
     }

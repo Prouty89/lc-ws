@@ -1,11 +1,11 @@
 import React from 'react';
+import {Switch, Route} from 'react-router-dom';
 
 import { ThemeProvider } from 'styled-components';
 
-import Home from './components/home/Home';
-import About from './components/about/About';
-import Contact from './components/contact/Contact';
-import Footer from './components/footer/Footer';
+import Landing from './components/pages/Landing';
+import Commercial from './components/portfolio/Commerial';
+import Residential from './components/portfolio/Residential';
 
 
 
@@ -26,10 +26,17 @@ function App() {
     },
     }}>
     <div className="App">
-      <Home />
-      <About />
-      <Contact />
-      <Footer />
+      <Switch>
+    <Route exact path="/">
+      <Landing />
+    </Route>
+    <Route path="/commercial">
+      <Commercial />
+    </Route>
+    <Route path="/residential">
+      <Residential />
+    </Route>
+      </Switch>
     </div>
     </ThemeProvider>
   );

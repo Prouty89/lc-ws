@@ -122,12 +122,16 @@ export const StyledContact = styled.div`
         font-family: 'inter', sans-serif;
         font-weight: bold;
         font-size: 1.3 rem;
-        width: 300px;
+        width: 320px;
+        margin-block-start: 1em;
+        margin-block-end: .5em;
     }
 
     .quote-by{
         font-style: italic;
         font-family: 'Cormorant Garamond', serif;
         color: ${props => props.theme.font.linkDark};
+        margin-block-start: 0em;
+        margin-block-end: 1em;
     }
 `

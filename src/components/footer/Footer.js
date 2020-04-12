@@ -12,7 +12,7 @@ const Footer = () => {
                 <p className="link">
                     Account
                 </p>
-                <p className="links">
+                <p className="link">
                     Portfolio
                 </p>
                 </div> 

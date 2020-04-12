@@ -1,5 +1,8 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
+
 import {StyledHome} from './HomeStyles';
+
 import HeroInterior from '../../Assets/hero.png';
 import logoWhite from '../../Assets/logoWhite.svg';
 
@@ -14,9 +17,11 @@ const Home = () => {
                             <li>
                                 Account
                             </li>
+                        <Link to="/residential">
                             <li>
                                 Portfolio
                             </li>
+                        </Link>
                         </ul>
                     </nav>
                     <div className="social">

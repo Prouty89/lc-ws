@@ -74,7 +74,13 @@ const Contact = () => {
             <div className="reviews">
                 <p className="quote">
                     Working with Lindsey was a dream, 
-                    her attention to detail and explaination 
+                    her attention to detail and explanation 
+                    of everything in my home was impeccable.
+                </p>
+                <h1 className="quote-by">Santa Claus</h1>
+                <p className="quote">
+                    Working with Lindsey was a dream, 
+                    her attention to detail and explanation 
                     of everything in my home was impeccable.
                 </p>
                 <h1 className="quote-by">Santa Claus</h1>
