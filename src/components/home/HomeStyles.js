@@ -27,13 +27,15 @@ export const StyledHome = styled.div`
             color: ${props => props.theme.font.linkDark};
             font-size: 1.5rem;
             margin-right: 15px;
+            margin-top: 10px;
             font-weight: bold;
+            cursor: pointer;
         }
     }
 
     .social{
         position: absolute;
-        top:15px;
+        top:25px;
         right: 0;
         width: 100px;
         margin-right: 30px;
@@ -49,8 +51,8 @@ export const StyledHome = styled.div`
         justify-content: center;
         align-items: center;
         background: ${props => props.theme.colors.green};
-        box-shadow: 0px 45px 0px #6b7c67;
-        z-index: 1;
+        box-shadow: 0px 30px 0px #6b7c67;
+        z-index: 3;
         
 
         .hero-title{
@@ -75,7 +77,7 @@ export const StyledHome = styled.div`
         font-weight: bold;
         font-size: 1.1rem;
         align-items: center;
-        width: 295px;
+        width: 315px;
         z-index: 3;
         left: -4px;
         height: 120px;
@@ -111,7 +113,7 @@ export const StyledHome = styled.div`
         text-align: left;
         width: 100%;
         font-size: 1.4rem;
-        margin-left: 20px;
+        margin-left: 35px;
         color: ${props => props.theme.font.linkDark};
     }
 

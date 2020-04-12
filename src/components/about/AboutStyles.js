@@ -63,7 +63,7 @@ export const StyledAbout = styled.div`
         z-index: 2;
         display: flex;
         justify-content: space-around;
-        box-shadow: 2px 0px 6px -6px black;
+        box-shadow: 2px -1px 6px -6px black;
         align-items: center;
         background: ${props => props.theme.colors.bgWhite};
     }
@@ -89,7 +89,7 @@ export const StyledAbout = styled.div`
         font-style: italic;
         border: none;
         font-weight: bold;
-        font-family: 'Cormorant Garamond', serif;  
+        font-family: 'Oswald', sans-serif;
     }
     
     .tab_inactive{
@@ -120,6 +120,7 @@ export const StyledAbout = styled.div`
         outline: none;
         color: ${props => props.theme.font.white};
         background: none;
+        cursor: pointer;
         border: none;
         font-size: 2rem;
         font-weight: bold;
