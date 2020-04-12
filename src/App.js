@@ -10,8 +10,8 @@ import Residential from './components/portfolio/Residential';
 
 import logoWhite from './Assets/logoWhite.svg';
 
-export const Landing = loadable(() =>
-  pMinDelay(import('./components/pages/Landing'), 1000), {
+ const Landing = loadable(()  =>
+   pMinDelay(import('./components/pages/Landing'), 1000), {
     fallback: 
     <div className="loading-screen">
       <img className="logo-1" src={logoWhite} alt="logo-white"/>
