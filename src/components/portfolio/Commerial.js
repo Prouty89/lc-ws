@@ -1,10 +1,12 @@
 import React from 'react';
 
+import { StyledPortfolio } from './PortfolioStyles';
+
 const Commerial = () => {
     return (
-        <div>
-            COMMERCIAL
-        </div>
+        <StyledPortfolio>
+            COMMERCIALCOMMERCIALvCOMMERCIALCOMMERCIALCOMMERCIALCOMMERCIALCOMMERCIALCOMMERCIALCOMMERCIALCOMMERCIALCOMMERCIAL
+        </StyledPortfolio>
     )
 }
 
