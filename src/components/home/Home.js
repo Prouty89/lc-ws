@@ -47,7 +47,7 @@ const Home = () => {
             </p>
             <p className="email">
             <img src="https://img.icons8.com/material-sharp/24/3d4839/new-post.png" alt="email"/>
-                        Lindsey@chicoineinteriors.com
+                        Lindsay@chicoineinteriors.com
             </p>
             
             </div>

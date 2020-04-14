@@ -11,6 +11,8 @@ import {
 
 
 import AboutOne from '../../Assets/photo_1.png';
+import AboutTwo from '../../Assets/photo_2.png';
+import AboutThree from '../../Assets/photo_3.png';
 
 const About = () => {
   //1st
@@ -58,7 +60,7 @@ const About = () => {
       <div className="about-container">
         <div className="about-title">
           <p className="designer-name">
-            Lindsey
+            Lindsay
             <br /> Chicoine
           </p>
           <div className ="images">
@@ -67,11 +69,11 @@ const About = () => {
             <button className={visionVisible === true ? "tab" : "tab_inactive"} onClick={() => closeOne()}>Vision</button>
           </div>
           <div className={aboutVisible === true ? "img-container" : "img-container_inactive"}>
-            <img src={AboutOne} alt="interior-2" />
+            <img src={AboutTwo} alt="interior-2" />
             <button className={aboutVisible === true ? "tab" : "tab_inactive"} onClick={() => closeTwo()}>About</button>
           </div>
           <div className={offerVisible === true ? "img-container" : "img-container_inactive"}>
-            <img src={AboutOne} alt="interior-3" />
+            <img src={AboutThree} alt="interior-3" />
             <button className={offerVisible === true ? "tab" : "tab_inactive_offer"} onClick={() => closeThree()}>Offerings</button>
           </div>
           </div>

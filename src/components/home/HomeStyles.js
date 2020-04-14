@@ -13,6 +13,9 @@ export const StyledHome = styled.div`
     margin: 0 auto;
     position relative;
     min-height: 834px;
+    @media(max-width: 1500px){
+        width: 100%;
+    }
     }
 
     .nav{

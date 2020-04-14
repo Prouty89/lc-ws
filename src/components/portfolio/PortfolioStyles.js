@@ -25,6 +25,12 @@ export const StyledPortfolio = styled.div`
     margin: 0 auto;
     height: 250px;
     background: ${props => props.theme.colors.bgWhite};
+
+    .portfolio-nav{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
     
     ul{
         display: flex;
@@ -38,16 +44,13 @@ export const StyledPortfolio = styled.div`
 
         .residential{
             list-style: none;
-            margin-right: 30px;
             font-size: 3rem;
-            margin-right: 10px;
+            
         }
 
         .commercial{
             list-style: none;
-            margin-right: 30px;
             font-size: 3rem;
-            margin-right: 10px;
         }
 
         .home{
@@ -93,8 +96,6 @@ export const StyledPortfolio = styled.div`
             margin-right: 10px;
             }
         }
-
-
         .slash{
             list-style: none;
             margin-left: 20px;

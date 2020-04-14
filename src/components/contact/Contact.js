@@ -6,6 +6,7 @@ const Contact = () => {
     return (
         <StyledContact>
             <div className="contact-container">
+            <div className="form-container">
                 <h1 className="contact-me"> Contact Me</h1>
             <div className="bg">
             <form className="contact-form">
@@ -73,17 +74,18 @@ const Contact = () => {
             </div>
             <div className="reviews">
                 <p className="quote">
-                    Working with Lindsey was a dream, 
+                    Working with Lindsay was a dream, 
                     her attention to detail and explanation 
                     of everything in my home was impeccable.
                 </p>
                 <h1 className="quote-by">Santa Claus</h1>
                 <p className="quote">
-                    Working with Lindsey was a dream, 
+                    Working with Lindsay was a dream, 
                     her attention to detail and explanation 
                     of everything in my home was impeccable.
                 </p>
                 <h1 className="quote-by">Santa Claus</h1>
+            </div>
             </div>
         </StyledContact>
     )

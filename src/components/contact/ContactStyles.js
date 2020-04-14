@@ -13,6 +13,7 @@ const border = keyframes`
 
 
 export const StyledContact = styled.div`
+    .contact-container{
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr;
@@ -25,6 +26,11 @@ export const StyledContact = styled.div`
     margin: 0 auto;
     background: ${props => props.theme.colors.bgWhite};
 
+    @media(max-width: 1500px){
+        width: 100%;
+    }
+    }
+
 
     .contact-form{
         display: flex;
@@ -32,7 +38,7 @@ export const StyledContact = styled.div`
         width: 625px;
         box-shadow: black -1px 0px 13px -12px;
         height: 420px;
-        background: ${props => props.theme.colors.greyWhite};
+        background: #6b7c67b0;
     }
 
 

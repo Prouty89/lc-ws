@@ -28,7 +28,7 @@ const PortfolioNav = () => {
               />
               <li className="residential">Residential</li>
             </NavLink>
-            <li className="slash">|</li>
+            <li className="slash">:</li>
             <NavLink
               className={ window.location.pathname === "/commercial" ? "selected-link" : "unselected-link" }
               to="/commercial"

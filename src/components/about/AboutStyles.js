@@ -39,10 +39,14 @@ export const StyledAbout = styled.div`
     height: 644px;
     width: 92%;
     margin: 0 auto;
+    @media(max-width: 1500px){
+        width: 100%;
+    }
     }
 
     .modal-content{
-        font-family: 'Oswald', sans-serif;
+        font-family: 'Cormorant Garamond', serif; 
+        font-weight: bold;
         width: 700px;
         font-size: 1.3rem;
     }
@@ -89,7 +93,7 @@ export const StyledAbout = styled.div`
         font-style: italic;
         border: none;
         font-weight: bold;
-        font-family: 'Oswald', sans-serif;
+        font-family: 'inter', sans-serif;
     }
     
     .tab_inactive{
@@ -103,7 +107,7 @@ export const StyledAbout = styled.div`
         cursor: pointer;
         font-size: 2rem;
         font-weight: bold;
-        font-family: 'Cormorant Garamond', serif;
+        font-family: 'inter', sans-serif;
 
         &:hover{
             animation-name: ${fill};
@@ -116,7 +120,7 @@ export const StyledAbout = styled.div`
     .tab_inactive_offer{
         position: absolute;
         top: 44px;
-        right: 35px;
+        right: 30px;
         outline: none;
         color: ${props => props.theme.font.white};
         background: none;
@@ -124,7 +128,7 @@ export const StyledAbout = styled.div`
         border: none;
         font-size: 2rem;
         font-weight: bold;
-        font-family: 'Cormorant Garamond', serif;
+        font-family: 'inter', sans-serif;
 
         &:hover{
             animation-name: ${fill};
