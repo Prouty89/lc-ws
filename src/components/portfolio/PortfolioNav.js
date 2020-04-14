@@ -6,20 +6,18 @@ import logoBlack from '../../Assets/logoBlack.svg';
 import { StyledPortfolio } from './PortfolioStyles';
 
 const PortfolioNav = () => {
-  const [selected, setSelected] = useState(false);
-{console.log(window.location)}
   return (
     <StyledPortfolio>
       <Link to="/">
         <img className="logo-home" src={logoBlack} alt="logo-black" />
       </Link>
-      <div className="residential-container">
+      <div className="header-container">
         <nav>
           <ul>
             <NavLink
               className={window.location.pathname === "/residential" ? "selected-link" : "unselected-link"}
               to="/residential"
-              onClick={() => setSelected(true)}
+              
             >
               <img
                 className="home"
@@ -32,7 +30,6 @@ const PortfolioNav = () => {
             <NavLink
               className={ window.location.pathname === "/commercial" ? "selected-link" : "unselected-link" }
               to="/commercial"
-              onClick={() => setSelected(true)}
             >
               <li className="commercial">Commercial</li>
               <img

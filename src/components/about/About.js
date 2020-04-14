@@ -59,10 +59,6 @@ const About = () => {
     <StyledAbout>
       <div className="about-container">
         <div className="about-title">
-          <p className="designer-name">
-            Lindsay
-            <br /> Chicoine
-          </p>
           <div className ="images">
           <div className={visionVisible === true ? "img-container" : "img-container_inactive"}>
             <img src={AboutOne} alt="interior-1" />

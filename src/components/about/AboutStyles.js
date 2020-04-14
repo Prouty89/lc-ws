@@ -66,7 +66,7 @@ export const StyledAbout = styled.div`
         position: relative;
         z-index: 2;
         display: flex;
-        justify-content: space-around;
+        justify-content: flex-end;
         box-shadow: 2px -1px 6px -6px black;
         align-items: center;
         background: ${props => props.theme.colors.bgWhite};
@@ -166,9 +166,11 @@ export const StyledAbout = styled.div`
     }
 
     .images{
-        height: 500px;
+        height: 100%;
         display: flex;
         flex-direction: column;
+        margin-top: 50px;
+        margin-right: 15px;
         justify-content: space-evenly;
     }
     

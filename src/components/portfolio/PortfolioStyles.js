@@ -23,8 +23,16 @@ const fill = keyframes`
 export const StyledPortfolio = styled.div`
     width: 92%;
     margin: 0 auto;
-    height: 250px;
+    
     background: ${props => props.theme.colors.bgWhite};
+
+    .residential-container{
+        height: 100vh;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        
+    }
 
     .portfolio-nav{
         width: 100%;
@@ -104,6 +112,23 @@ export const StyledPortfolio = styled.div`
             font-size: 3rem;
             margin-right: 10px;
         }
+    }
+
+    .img-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .portrait{
+        height: 365px;
+        transform: rotate(90deg);
+        width: 530px;
+    }
+    .landscape{
+        height: 365px;
+       
+        width: 530px;
     }
 
     .logo-home{
