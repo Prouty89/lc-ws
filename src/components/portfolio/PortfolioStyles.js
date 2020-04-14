@@ -115,15 +115,23 @@ export const StyledPortfolio = styled.div`
     }
 
     .img-container{
+        padding: 100px;
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
-        justify-content: center;
+        justify-content: space-evenly;
     }
 
     .portrait{
-        height: 365px;
-        transform: rotate(90deg);
-        width: 530px;
+        width: 365px;
+        
+        height: 530px;
+    }
+
+    .portrait_1{
+        width: 365px;
+       
+        height: 530px;
     }
     .landscape{
         height: 365px;
