@@ -16,6 +16,10 @@ export const StyledHome = styled.div`
     @media(max-width: 1500px){
         width: 100%;
     }
+    @media(max-width: 1000px){
+        width: 100%;
+        display: block;
+    }
     }
 
     .nav{
@@ -61,6 +65,27 @@ export const StyledHome = styled.div`
         background: ${props => props.theme.colors.green};
         box-shadow: 0px 30px 0px #6b7c67;
         z-index: 3;
+
+        @media(max-width: 1000px){
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            position: absolute;
+            height: 400px;
+            width: 100%;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            background: #6b7c67;
+            z-index: 3;
+}
+        }
         
 
         .hero-title{
@@ -97,7 +122,7 @@ export const StyledHome = styled.div`
         }
     }
     .logo-1{
-        width: 525px;
+        width: 100%;
     }
 
     .interior-design{
@@ -115,6 +140,20 @@ export const StyledHome = styled.div`
         z-index: 4;
         justify-content: flex-start;
         box-shadow: -2px -1px 19px -10px black;
+
+        @media(max-width: 1000px){
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-justify-content: flex-start;
+            -ms-flex-pack: start;
+            justify-content: flex-start;
+            z-index: 4;
+            -webkit-justify-content: flex-start;
+            -ms-flex-pack: start;
+            justify-content: center;
+        }
     }
 
     .number{
