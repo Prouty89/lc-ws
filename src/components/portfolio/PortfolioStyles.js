@@ -27,7 +27,7 @@ export const StyledPortfolio = styled.div`
     background: ${props => props.theme.colors.bgWhite};
 
     .residential-container{
-        height: 100vh;
+        height: 100%;
         display: flex;
         align-content: center;
         justify-content: center;
@@ -120,6 +120,10 @@ export const StyledPortfolio = styled.div`
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-evenly;
+        
+        img{
+            padding-top: 20px;
+        }
     }
 
     .portrait{
