@@ -129,7 +129,8 @@ export const StyledPortfolio = styled.div`
     }
 
     .image{
-        padding: 20px;
+        box-shadow: -1px 1px 4px 0px black;
+        border-radius: 3px;
     }
 
     .portrait{

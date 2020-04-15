@@ -1,33 +1,45 @@
 function getPhotos() {
     return [{
-      src: 'https://www.datocms-assets.com/18044/1586887792-kjit2ktcspsfkudpzgoxrgthumb82-edited.png',
+      src: 'https://www.datocms-assets.com/18044/1586911937-kjit2ktcspsfkudpzgoxrgthumb82-1-edited.png',
       alt: 'kitchen',
       height: 400
     },
     {
-    src: 'https://www.datocms-assets.com/18044/1586877791-ci-edited.png',
-    alt: 'parrot',
-    width: 300,
+    src: 'https://www.datocms-assets.com/18044/1586912043-hcxlscf1sggnb60gj5wwoathumb5e-1-edited.png',
+    alt: 'chair-light',
+    height: 400,
     }, 
     {
-      src: 'https://www.datocms-assets.com/18044/1586886855-weltxow0rps6cfpt8fb1xathumb42-edited-edited.png',
-      alt: 'bathroom',
-      height: 400
-    }, {
-      src: 'https://www.datocms-assets.com/18044/1586880971-g71ybxq4tkc1h5i4bvccbathumb58-edited.png',
-      alt: 'bathroom1',
-      height: 400
-    },
-    {
-    src: 'https://www.datocms-assets.com/18044/1586880738-ci-head-edited.png',
-    alt: 'kitchen',
-    width: 300,
-    },
-    {
-      src: 'https://www.datocms-assets.com/18044/1586891941-c4-edited.png',
+      src: 'https://www.datocms-assets.com/18044/1586892084-c4-edited-edited.png',
       alt: 'bedroom',
       height: 400
-    }];
+    }, {
+      src: 'https://www.datocms-assets.com/18044/1586911983-c2-1-edited.png',
+      alt: 'chair-paintings',
+      height: 400
+    },
+    {
+    src: 'https://www.datocms-assets.com/18044/1586911695-pb9pu4rtrsqjd0orqazdrqthumb37-1.png',
+    alt: 'plant-automon',
+    height: 400,
+    },
+    {
+    src: 'https://www.datocms-assets.com/18044/1586911685-g71ybxq4tkc1h5i4bvccbathumb58-1.png',
+    alt: 'bathroom1',
+    height: 400,
+    width: 267
+    },
+    {
+    src: 'https://www.datocms-assets.com/18044/1586912015-cvaeht6aqxsccvtlyporhgthumb45-1-edited.png',
+    alt: 'chair-painting',
+    height: 400
+    },
+    {
+    src: 'https://www.datocms-assets.com/18044/1586911907-vhjw1z6uqcmcjrvxc4xleqthumb6a-1-edited.png',
+    alt: 'bathroom-heron',
+    height: 400
+    }
+];
   }
   
   export default getPhotos;
