@@ -8,6 +8,7 @@ import { ThemeProvider } from 'styled-components';
 import Commercial from './components/portfolio/Commerial';
 import Residential from './components/portfolio/Residential';
 import PortfolioNav from './components/portfolio/PortfolioNav';
+import Footer from './components/footer/Footer';
 
 import logoWhite from './Assets/logoWhite.svg';
 
@@ -51,10 +52,12 @@ function App() {
     <Route path="/commercial">
     <PortfolioNav />
       <Commercial />
+      <Footer />
     </Route>
     <Route path="/residential">
       <PortfolioNav />
       <Residential />
+      <Footer />
     </Route>
       </Switch>
     </div>

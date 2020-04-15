@@ -107,17 +107,17 @@ export const StyledPortfolio = styled.div`
         .slash{
             list-style: none;
             margin-left: 20px;
-            padding-right: 20px;
+            margin-right: 20px;
             font-family: 'Oswald', sans-serif;
             font-size: 3rem;
-            margin-right: 10px;
+            
         }
     }
 
     .portrait-container{
         display: flex;
         max-width: 1150px;
-        padding-top: 50px;
+        padding-top: 150px;
         justify-content: space-around;
         flex-wrap: wrap;
         margin: 0 auto;
