@@ -27,7 +27,7 @@ export const StyledPortfolio = styled.div`
     background: ${props => props.theme.colors.bgWhite};
 
     .residential-container{
-        height: 100%;
+        min-height: 1000px;
         display: flex;
         align-content: center;
         justify-content: center;
@@ -114,16 +114,22 @@ export const StyledPortfolio = styled.div`
         }
     }
 
-    .img-container{
-        padding: 100px;
+    .portrait-container{
         display: flex;
+        max-width: 1150px;
+        padding-top: 50px;
+        justify-content: space-around;
         flex-wrap: wrap;
+        margin: 0 auto;
         align-items: center;
-        justify-content: space-evenly;
-        
+
         img{
-            padding-top: 20px;
+            margin: 0 auto;
         }
+    }
+
+    .image{
+        padding: 20px;
     }
 
     .portrait{

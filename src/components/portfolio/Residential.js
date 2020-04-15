@@ -7,8 +7,8 @@ const Residential = (scrollPosition, image) => {
     return (
         <StyledPortfolio>
             <div className="residential-container">
-            <div className="img-container">
-            <ImagePortrait
+           
+            <ImagePortrait className="portrait-container"
             
             />
             {/* <img className="portrait" src="https://www.datocms-assets.com/18044/1586886426-c4-edited.png" alt="bed"/>
@@ -19,7 +19,7 @@ const Residential = (scrollPosition, image) => {
             <img className="portrait" src="https://www.datocms-assets.com/18044/1586887792-kjit2ktcspsfkudpzgoxrgthumb82-edited.png" alt="kitchen_1"/> */}
 
             </div>
-            </div>
+       
         </StyledPortfolio>
     )
 }

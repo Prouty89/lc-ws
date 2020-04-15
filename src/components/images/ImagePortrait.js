@@ -9,12 +9,13 @@ const Gallery = ({ scrollPosition }) => {
     const images = getPhotos();
 return (
     
-        <div>
+        <div className="portrait-container">
         {images.map((image) =>
-            <LazyLoadImage
+            <LazyLoadImage className="image"
             key={image.key}
             alt={image.alt}
-            height={300}
+            height={image.height}
+            width={image.width}
             effect= "opacity"
             // Make sure to pass down the scrollPosition,
             // this will be used by the component to know
