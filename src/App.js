@@ -31,7 +31,7 @@ function App() {
   return (
     <ThemeProvider theme={{
       colors: {
-        green: "#6b7c67",
+        green: "#242324",
         greyWhite: "#f2eeeb",
         bgWhite: "#fffaf5",
     },

@@ -38,7 +38,7 @@ export const StyledContact = styled.div`
         width: 625px;
         box-shadow: black -1px 0px 13px -12px;
         height: 420px;
-        background: #6b7c67b0;
+        background: #242324;
     }
 
 

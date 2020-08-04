@@ -63,7 +63,7 @@ export const StyledHome = styled.div`
         justify-content: center;
         align-items: center;
         background: ${props => props.theme.colors.green};
-        box-shadow: 0px 30px 0px #6b7c67;
+        box-shadow: 0px 30px 0px #242324;
         z-index: 3;
 
         @media(max-width: 1000px){

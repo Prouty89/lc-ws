@@ -61,9 +61,7 @@ export const StyledPortfolio = styled.div`
             font-size: 3rem;
         }
 
-        .home{
-            margin-right: 10px;
-        }
+        
         .selected-link{
             text-decoration: none;
             color: ${props => props.theme.font.linkDark};
@@ -101,7 +99,7 @@ export const StyledPortfolio = styled.div`
             font-family: 'Oswald', sans-serif;
             font-size: 3rem;
             cursor: pointer;
-            margin-right: 10px;
+           
             }
         }
         .slash{
@@ -116,8 +114,9 @@ export const StyledPortfolio = styled.div`
 
     .portrait-container{
         display: flex;
-        max-width: 1150px;
+        max-width: 1250px;
         padding-top: 150px;
+        margin-bottom: 150px;
         justify-content: space-around;
         flex-wrap: wrap;
         margin: 0 auto;
