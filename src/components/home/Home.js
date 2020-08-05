@@ -10,7 +10,7 @@ const Home = () => {
     return (
         <StyledHome>
            
-            <div className="home-container"> 
+            {/* <div className="home-container"> 
                 <div className="info">
                     <nav className="nav">
                         <ul>
@@ -51,7 +51,7 @@ const Home = () => {
             </p>
             
             </div>
-            </div> 
+            </div>  */}
         </StyledHome>
     )
 }

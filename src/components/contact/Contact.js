@@ -1,93 +1,31 @@
 import React from 'react';
-import {StyledContact} from './ContactStyles';
+import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
+
 
 
 const Contact = () => {
     return (
-        <StyledContact>
-            <div className="contact-container">
-            <div className="form-container">
-                <h1 className="contact-me"> Contact Me</h1>
-            <div className="bg">
-            <form className="contact-form">
-                <div className="inputs">
-                    <input
-                    className="input"
-                    name="name"
-                    placeholder="Name"
-                    id="name"
-                    type="text"
-                    />
-                        <label
-                        className="name"
-                        htmlFor="name"
-                        >
-                    
-                        </label>
-                    
-                    <input
-                    className="input"
-                    name="email"
-                    placeholder="Email"
-                    id="email"
-                    type="text"
-                    />
-                    <label
-                    className="email"
-                    htmlFor="email"
-                    >
-                    
-                    </label>
-                        <input
-                    className="input"
-                    name="phone"
-                    placeholder="Phone #"
-                    id="phone"
-                    type="text"
-                    />
-                    <label
-                    className="phone"
-                    htmlFor="phone"
-                    >
-                    
-                    </label>
-                    
-                    <textarea
-                    className="input_contact"
-                    name="message"
-                    placeholder="Note"
-                    id="message"
-                    type="textArea"
-                    />
-                    <label
-                        className="message"
-                        htmlFor="message"
-                        >
-                        
-                    </label>
-                    <button className="submit-btn" type="submit">
-                        Submit
-                    </button>
-                </div>
-            </form>
-            </div>
-            </div>
-            <div className="reviews">
-                <p className="quote">
-                    Working with Lindsay was a dream, 
-                    her attention to detail and explanation 
-                    of everything in my home was impeccable.
-                </p>
-                <h1 className="quote-by">Santa Claus</h1>
-                <p className="quote">
-                    Working with Lindsay was a dream, 
-                    her attention to detail and explanation 
-                    of everything in my home was impeccable.
-                </p>
-                <h1 className="quote-by">Santa Claus</h1>
-            </div>
-            </div>
-        </StyledContact>
+        <Form>
+        <Form.Group controlId="formBasicEmail">
+          <Form.Label>Email address</Form.Label>
+          <Form.Control type="email" placeholder="Enter email" />
+          <Form.Text className="text-muted">
+            We'll never share your email with anyone else.
+          </Form.Text>
+        </Form.Group>
+      
+        <Form.Group controlId="formBasicPassword">
+          <Form.Label>Password</Form.Label>
+          <Form.Control type="password" placeholder="Password" />
+        </Form.Group>
+        <Form.Group controlId="formBasicCheckbox">
+          <Form.Check type="checkbox" label="Check me out" />
+        </Form.Group>
+        <Button variant="primary" type="submit">
+          Submit
+        </Button>
+      </Form>
     )
 }
 

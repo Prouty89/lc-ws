@@ -17,7 +17,7 @@ function Landing() {
   return (
     <div className="landing">
       <Home />
-      <About />
+      {/* <About /> */}
       <Contact />
       <Footer />
     </div>
