@@ -1,15 +1,28 @@
 import styled from "styled-components";
 
+import Foot from '../../Assets/foot_bottom.JPG';
 
 export const StyledFooter = styled.div`
-width: 92%;
+width: 100%;
+color: white;
 margin: 0 auto;
+height: 100%;
+height: 310px;
+background-position: right;
+background-size: contain;
+background-repeat: no-repeat;
+background-image: url(${Foot});
 
-height: 105px;
+bottom: 0;
+
 
 .footer-container{
     display: flex;
     justify-content: space-between;
+    background: linear-gradient(90deg,rgb(35 31 32) 51%,rgba(0,0,0,0.5354516806722689) 65%,rgba(255,0,0,0) 80%);
+    background-position: center;
+    background-size: cover;
+    height: 310px;
 }
 
 .links_footer{

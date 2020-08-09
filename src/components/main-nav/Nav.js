@@ -1,6 +1,7 @@
 import React from 'react';
 
 
+import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
 import { StyledNavigation } from './NavigationStyles';
@@ -8,7 +9,7 @@ import { StyledNavigation } from './NavigationStyles';
 const Navigation = () => {
   return (
     <StyledNavigation>
-      <Nav justify variant="tabs" defaultActiveKey="/">
+      <Navbar fixed="top" variant="tabs" defaultActiveKey="/">
   <Nav.Item>
     <Nav.Link href="https://www.mydomastudio.com/" target="_blank">Client Login</Nav.Link>
   </Nav.Item>
@@ -31,7 +32,7 @@ const Navigation = () => {
     <Nav.Link eventKey="link-6">Contact</Nav.Link>
   </Nav.Item>
   
-</Nav>
+</Navbar>
     </StyledNavigation>
   );
 };

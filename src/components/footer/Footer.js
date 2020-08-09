@@ -1,14 +1,15 @@
 import React from 'react';
 import {StyledFooter} from './FooterStyles';
+import Contact from '../contact/Contact';
+
 
 
 
 const Footer = () => {
     return (
         <StyledFooter>
-           
             <div className="footer-container">
-                <div className="links_footer">
+                {/* <div className="links_footer">
                 <p className="link">
                     Account
                 </p>
@@ -23,7 +24,8 @@ const Footer = () => {
                     <a href="www.facebook.com" target="__blank">
                         <img className="insta" src="https://img.icons8.com/ios/40/3d4839/instagram-new.png" alt="instagram"/>
                     </a>
-                    </div>
+                    </div> */}
+                    <Contact />
             </div> 
         </StyledFooter>
     )
