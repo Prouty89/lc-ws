@@ -10,24 +10,37 @@ const Contact = () => {
       <StyledContact>
         <div className="form-contain">
         <Form>
-        <Form.Row>
-        <Form.Group as={Col} controlId="formEmail">
-          <Form.Label>Email address</Form.Label>
-          <Form.Control type="email" placeholder="Enter email" />
+        
+        <Form.Group controlId="formEmail">
+          
+          <Form.Control type="email" placeholder="Email" />
         </Form.Group>
-        <Form.Group as={Col} controlId="formNumber">
-          <Form.Label>Phone</Form.Label>
+        <Form.Group  controlId="formNumber">
+     
           <Form.Control type="text" placeholder="Phone Number" />
         </Form.Group>
-        </Form.Row>
+        
         <Form.Group controlId="ControlTextarea">
-        <Form.Label>Message</Form.Label>
-        <Form.Control as="textarea" rows="3" />
+        <Form.Control placeholder="Your Message" as="textarea"  rows="2" />
       </Form.Group>
         <Button variant="primary" type="submit">
           Submit
         </Button>
       </Form>
+      </div>
+      <div className="details-contain">
+        <p>
+          Contact me using the details below or directly by filling in the provided fields
+        </p>
+        <p>
+          Lindsay Chicoine 
+        </p>
+        <p>
+          (605) 888 8888
+        </p>
+        <p>
+          Chicoine@Chicoine.com  
+        </p>
       </div>
       </StyledContact>
     )

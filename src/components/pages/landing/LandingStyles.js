@@ -4,6 +4,14 @@ import styled from "styled-components";
 
 export const StyledLanding = styled.div`
 
+h1{
+    margin-top: .5rem;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    padding: 50px;
+    padding-bottom: 0px;
+}
 
 .landing-logo{
     background: ${props => props.theme.colors.bgBlack};
@@ -29,17 +37,21 @@ export const StyledLanding = styled.div`
     background: #231f20;
 }
 
-.blurb{
-    width: 500px;
-    margin: 0 auto;
-    text-align: center;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    margin-top: 50px;
-    margin-bottom: 40px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 2rem;
-    font-style: oblique;
+.services{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
 }
+
+.service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p{
+        width: 400px;
+    }
+}
+
 `

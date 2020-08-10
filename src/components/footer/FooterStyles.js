@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import Foot from '../../Assets/foot_bottom.JPG';
+import Foot from '../../Assets/footer_mug.JPG';
 
 export const StyledFooter = styled.div`
 width: 100%;
