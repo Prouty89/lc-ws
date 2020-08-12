@@ -6,7 +6,7 @@ import Navigation from './components/main-nav/Nav';
 
 import { ThemeProvider } from 'styled-components';
 
-import Commercial from './components/portfolio/Commerial';
+import Portfolio from './components/portfolio/Portfolio';
 import Residential from './components/portfolio/Residential';
 import PortfolioNav from './components/portfolio/PortfolioNav';
 import Footer from './components/footer/Footer';
@@ -52,11 +52,10 @@ function App() {
     <Navigation />
     <Route exact path="/">
       <Landing />
-      </Route>
+    </Route>
     <Switch>
-    <Route path="/commercial">
-    <PortfolioNav />
-      <Commercial />
+    <Route path="/portfolio">
+      <Portfolio />
     </Route>
     <Route path="/residential">
       <PortfolioNav />

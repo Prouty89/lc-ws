@@ -30,7 +30,7 @@ const Contact = () => {
       </div>
       <div className="details-contain">
         <p>
-          Contact me using the details below or directly by filling in the provided fields
+          Contact me using the details below or directly by filling out the form
         </p>
         <p>
           Lindsay Chicoine 

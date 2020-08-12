@@ -9,12 +9,12 @@ import { StyledNavigation } from './NavigationStyles';
 const Navigation = () => {
   return (
     <StyledNavigation>
-      <Navbar fixed="top" variant="tabs" defaultActiveKey="/">
+      <Navbar  variant="tabs" defaultActiveKey="/">
   <Nav.Item>
     <Nav.Link href="https://www.mydomastudio.com/" target="_blank">Client Login</Nav.Link>
   </Nav.Item>
   <Nav.Item>
-    <Nav.Link href="/commercial">Chic Inspiration</Nav.Link>
+    <Nav.Link href="/portfolio">Chic Inspiration</Nav.Link>
   </Nav.Item>
   <Nav.Item>
     <Nav.Link eventKey="link-2">Design Process</Nav.Link>
