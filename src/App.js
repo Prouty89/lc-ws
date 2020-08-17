@@ -1,14 +1,14 @@
 import React from 'react';
-import {Switch, Route} from 'react-router-dom';
+import {Switch, Route, useLocation} from 'react-router-dom';
 import loadable from '@loadable/component';
 import pMinDelay from 'p-min-delay';
 import Navigation from './components/main-nav/Nav';
+import { AnimatePresence } from "framer-motion";
 
 import { ThemeProvider } from 'styled-components';
 
 import Portfolio from './components/portfolio/Portfolio';
-import Residential from './components/portfolio/Residential';
-import PortfolioNav from './components/portfolio/PortfolioNav';
+import Process from './components/pages/process/Process';
 import Footer from './components/footer/Footer';
 import Contact from './components/contact/Contact';
 import Landing from './components/pages/landing/Landing';
@@ -32,6 +32,8 @@ import logoWhite from './Assets/logoWhite.svg';
 
 
 function App() {
+  const location = useLocation();
+
   return (
     <ThemeProvider theme={{
       colors: {
@@ -53,19 +55,34 @@ function App() {
     <Route exact path="/">
       <Landing />
     </Route>
+    <AnimatePresence location={window.location} key={location.pathname}>
     <Switch>
     <Route path="/portfolio">
       <Portfolio />
     </Route>
-    <Route path="/residential">
-      <PortfolioNav />
-      <Residential />
+    <Route path="/process">
+      <Process />
+    </Route>
+    
+    <Route path="/reviews">
+      
+    </Route>
+    
+    <Route path="/team">
+      
+    </Route>
+    
+    <Route path="/spotlight">
+      
     </Route>
       </Switch>
+      </AnimatePresence>
       <Footer />
     </div>
     </ThemeProvider>
   );
 }
+
+
 
 export default App;

@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { pageTransition, pageStyle, pageVariants } from '../pages/PageStyle';
+import { pageTransition, pageStyle, pageVariants } from '../../pages/PageStyle';
 import { motion } from 'framer-motion';
 
-import { StyledPortfolio } from './PortfolioStyles';
+import { StyledProcess } from './ProcessStyles';
 import Figure from 'react-bootstrap/Figure'
 
 const Portfolio = () => {
@@ -17,7 +17,7 @@ const Portfolio = () => {
             variants={pageVariants}
             transition={pageTransition}
             >
-        <StyledPortfolio>
+        <StyledProcess>
             <div>
             <Figure>
                 <Figure.Image
@@ -31,7 +31,7 @@ const Portfolio = () => {
                 </Figure.Caption>
             </Figure>
             </div>
-        </StyledPortfolio>
+        </StyledProcess>
         </motion.div>
     )
 }
