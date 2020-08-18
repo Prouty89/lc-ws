@@ -3,7 +3,7 @@
 export const pageTransition = {
     type: "tween",
     ease: "anticipate",
-    duration: 0.5
+    duration: .7
 };
   
 export const pageStyle = {
@@ -11,19 +11,19 @@ export const pageStyle = {
 };
 
 export const pageVariants = {
+
     initial: {
       opacity: 0,
-     
-      scale: 0.2
+      y: 500,
     },
     in: {
       opacity: 1,
-      x: 0,
-      scale: 0.7
+      y: 0,
+      scale: 1
     },
     out: {
-      opacity: .5,
-      x: "100vw",  
+      opacity: 0,
+      y: 0,  
       scale: 1
     }
   };

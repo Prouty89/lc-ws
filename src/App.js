@@ -52,10 +52,10 @@ function App() {
     }}>
     <div className="App">
     <Navigation />
+    <AnimatePresence location={window.location} key={location.pathname}>
     <Route exact path="/">
       <Landing />
     </Route>
-    <AnimatePresence location={window.location} key={location.pathname}>
     <Switch>
     <Route path="/portfolio">
       <Portfolio />

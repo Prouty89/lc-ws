@@ -1,0 +1,24 @@
+import React from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+
+
+
+export const SlideIn = ({
+  children,
+  isActive = false,
+  slide = 100,
+  key = 'unival',
+}) => (
+  <AnimatePresence>
+    {isActive && (
+      <motion.div
+        key={key}
+        exit={{ opacity: 0, x: slide }}
+        initial={{ opacity: 0, x: slide }}
+        animate={{ opacity: 1, x: 0 }}
+      >
+        {children}
+      </motion.div>
+    )}
+  </AnimatePresence>
+)
